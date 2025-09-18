@@ -1,5 +1,4 @@
 import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
 import os
 
@@ -76,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
