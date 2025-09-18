@@ -9,7 +9,7 @@
 - `create_time_series(file_path)` — чтение 
 - `calculation_moving_average(df)` — вычисление скользящего среднего
 - `build_graphic(df)` — построение графика
-- `main()` —
+- `main()` — основная функция
 ## Зависимости
   pip install pandas matplotlib
 ## Запуск
