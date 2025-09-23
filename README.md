@@ -8,11 +8,11 @@
 
 - `create_time_series(file_path)` — чтение 
 - `calculation_moving_average(df)` — вычисление скользящего среднего
-- `build_graphic(df)` — построение графика
+- `build_graphic(df)` — построение и сохранение графика
 - `main()` — основная функция
 ## Зависимости
   pip install pandas matplotlib
 ## Запуск
-  python moving_average
+  python moving_average.py test.csv
 ## Вывод программы
 <img width="2256" height="1364" alt="image" src="https://github.com/user-attachments/assets/445ecc09-e352-4f1e-8c2f-87a88d66ff34" />
