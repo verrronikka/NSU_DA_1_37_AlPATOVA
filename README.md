@@ -2,13 +2,13 @@
 Код задачи moving_average выполняет следующее:
   - Создание временного ряда
   - Вычисление скользящего среднего
-  - Построение графика 
+  - Построение и сохранение графика 
 
 ## Структура кода
 
 - `create_time_series(file_path)` — чтение 
-- `calculation_moving_average(df)` — вычисление скользящего среднего
-- `build_graphic(df)` — построение и сохранение графика
+- `calculation_moving_average(df, window))` — вычисление скользящего среднего
+- `build_graphic(df, output_file, format_file)` — построение и сохранение графика
 - `main()` — основная функция
 ## Зависимости
   pip install pandas matplotlib
