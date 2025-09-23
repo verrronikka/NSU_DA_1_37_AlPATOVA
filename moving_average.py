@@ -47,7 +47,7 @@ def calculation_moving_average(df, window):
     
     Args:
         df (pd.DataFrame): DataFrame с колонками 'date' и 'value' 
-
+        window (int): размер окна для расчета скользящего среднего
     Returns:
         pd.DataFrame: DataFrame с колонками 'date', 'value', 'SMA'  
     """
@@ -113,4 +113,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
