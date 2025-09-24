@@ -6,9 +6,9 @@
 
 ## Структура кода
 
-- `create_time_series(file_path)` — чтение 
-- `calculation_moving_average(df, window))` — вычисление скользящего среднего
-- `build_graphic(df, output_file, format_file)` — построение и сохранение графика
+- `create_time_series(file_path, date_col, value_col)` — чтение 
+- `calculation_moving_average(df, window, value_col, new_col=None)` — вычисление скользящего среднего
+- `build_graphic(df, output_file, format_file, date_col, value_col, new_col)` — построение и сохранение графика
 - `main()` — основная функция
 ## Зависимости
   pip install pandas matplotlib
